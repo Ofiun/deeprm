@@ -6,7 +6,8 @@ Install prerequisites
 ```
 sudo apt-get update
 sudo apt-get install python-numpy python-scipy python-dev python-pip python-nose g++ libopenblas-dev git
-pip install --user Theano
+python 2.7
+pip install --user Theano (0.8.0)
 pip install --user Lasagne==0.1
 sudo apt-get install python-matplotlib
 ```
